@@ -1390,7 +1390,7 @@ elif args_namespace.update:
     cmd = 'sha1sum tool.py | grep .... | cut -c 1-40'
     oldversion_hash = subprocess.check_output(cmd, shell=True)
     oldversion_hash = oldversion_hash.strip()
-    os.system('wget -N https://gist.githubusercontent.com/Rajchowdhury420/tool.py -O tool.py > /dev/null 2>&1')
+    os.system('wget -N https://raw.githubusercontent.com/Rajchowdhury420/Final-Year-Project-UIT-BU/main/6th-Sem/tool.py -O tool.py > /dev/null 2>&1')
     newversion_hash = subprocess.check_output(cmd, shell=True)
     newversion_hash = newversion_hash.strip()
     if oldversion_hash == newversion_hash :
