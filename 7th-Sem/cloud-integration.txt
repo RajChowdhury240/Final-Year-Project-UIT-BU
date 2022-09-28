@@ -1,0 +1,2 @@
+1. Add AWS Support to the Tool
+2. Containeraized into Docker
